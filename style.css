@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Medium.ttf) format('truetupe'),
+        url(./fonts/Inter-Regular.ttf) format('truetupe'),
+        url(./fonts/Inter-SemiBold.ttf) format('truetupe');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E5E5E5;
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    background-image: url(./assets/logo.svg);
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 41px;
+}
+
+header nav {
+    display: flex;
+    align-items: baseline;
+}
+
+header nav p {
+    margin-right: 30px;
+
+}
+
+header nav div:not(:last-child) {
+    margin-right: 18px;
+}
+
+input {
+    width: 132px;
+    height: 44px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    text-align: center;
+    color: #FB8F1D;
+
+}
+
+button {
+    width: 132px;
+    height: 44px;
+    background: #FB8F1D;
+    border-radius: 8px;
+}
