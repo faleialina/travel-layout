@@ -103,11 +103,12 @@ section button {
     background-repeat: no-repeat;
 }
 
-.section-two {
+.section-two-four {
     display: flex;
     justify-content: space-around;
     margin-top: 200px;
-    margin-bottom: 292px;
+    margin-bottom: 200px;
+
 }
 
 .img-section2 {
@@ -124,6 +125,13 @@ h2 {
 .section-three-text {
     display: flex;
     justify-content: space-between;
+}
+
+.view ::after {
+    background-image: url(./assets/Vector\ 1.svg);
+    width: 4px;
+    height: 9px;
+    background-repeat: no-repeat;
 }
 
 .section-three-img {
@@ -156,5 +164,12 @@ h2 {
     background-image: url(./assets/Screen\ Shot\ 2020-02-15\ at\ 11.10\ 1.png);
     width: 450px;
     height: 350px;
+    background-repeat: no-repeat;
+}
+
+.img-section4 {
+    background-image: url(./assets/Thousand-03.svg);
+    width: 859px;
+    height: 580px;
     background-repeat: no-repeat;
 }
