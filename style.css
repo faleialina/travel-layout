@@ -5,13 +5,25 @@
         url(./fonts/Inter-SemiBold.ttf) format('truetupe');
 }
 
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(./fonts/PlayfairDisplay-Bold.ttf) format('truetupe');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(./fonts/Mulish-Light.ttf) format('truetupe'),
+        url(./fonts/Mulish-Bold.ttf) format('truetupe');
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
 }
 
 body {
-    background: #E5E5E5;
+    background: #fbf9f9;
     width: 1200px;
     margin: auto;
 }
@@ -36,6 +48,8 @@ header nav {
 
 header nav p {
     margin-right: 30px;
+    font: 500 16px 'Inter';
+
 }
 
 header nav div:not(:last-child) {
@@ -49,6 +63,7 @@ nav input {
     border-radius: 8px;
     text-align: center;
     color: #FB8F1D;
+    font: 500 15px 'Inter';
 }
 
 nav button {
@@ -58,6 +73,7 @@ nav button {
     color: #FFFFFF;
     border-radius: 8px;
     border: 0.8px solid #FFFF;
+    font: 500 15px 'Inter';
 }
 
 .section-one {
@@ -68,6 +84,11 @@ nav button {
 
 h1 {
     margin-bottom: 74px;
+    font: 700 64px 'PlayfairDisplay';
+}
+
+.section-one p {
+    font: 600 22px 'Inter';
 }
 
 input {
@@ -76,6 +97,7 @@ input {
     border: 0.8px solid #AFB0B9;
     border-radius: 6px;
     text-align: center;
+    font: 400 15px 'Inter';
 }
 
 .input-one {
@@ -94,6 +116,7 @@ section button {
     border-radius: 8px;
     border: 0.8px solid #FFFF;
     margin-top: 47px;
+    font: 600 16px 'Inter';
 }
 
 .img-section1 {
@@ -108,7 +131,6 @@ section button {
     justify-content: space-around;
     margin-top: 200px;
     margin-bottom: 200px;
-
 }
 
 .img-section2 {
@@ -120,6 +142,11 @@ section button {
 
 h2 {
     margin-bottom: 20px;
+    font: 700 36px 'PlayfairDisplay';
+}
+
+.section-two-four p {
+    font: 300 17px 'Mulish';
 }
 
 .section-three-text {
@@ -127,10 +154,18 @@ h2 {
     justify-content: space-between;
 }
 
-.view ::after {
+.view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    color: #FB8F1D;
+}
+
+.view-img {
     background-image: url(./assets/Vector\ 1.svg);
-    width: 4px;
-    height: 9px;
+    width: 10px;
+    height: 19px;
     background-repeat: no-repeat;
 }
 
@@ -172,4 +207,28 @@ h2 {
     width: 859px;
     height: 580px;
     background-repeat: no-repeat;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #f2f2f6;
+}
+
+.footer-one {
+    width: 300px;
+}
+
+footer p {
+    font: 300 18px 'Mulish';
+}
+
+.© {
+    font: 300 17px 'Mulish';
+}
+
+h3 {
+    font: 700 19px 'Mulish';
+    margin-bottom: 17px;
 }
