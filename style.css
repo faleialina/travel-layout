@@ -49,7 +49,11 @@ header nav {
 header nav p {
     margin-right: 30px;
     font: 500 16px 'Inter';
+}
 
+header nav p:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 header nav div:not(:last-child) {
